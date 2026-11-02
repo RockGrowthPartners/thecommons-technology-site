@@ -1,0 +1,14 @@
+{
+  // The Commons Technology, Inc. company website (thecommons.technology).
+  // Cloudflare Workers Builds deploys this on every push to main.
+  // The name must match the Worker in the Cloudflare dashboard.
+  "name": "thecommons-technology",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    // Serves /support for support.html and public/404.html for unknown paths.
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+  // Custom domains are managed in the Cloudflare dashboard, so no "routes" here.
+}
