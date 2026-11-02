@@ -4,7 +4,7 @@ The company site at [thecommons.technology](https://thecommons.technology) for T
 
 ## How it goes live
 
-Every push to `main` is built and deployed by Cloudflare Workers Builds (Worker name `thecommons-technology`), usually within a minute or two. There is nothing to upload by hand.
+Every push to `main` is built and deployed by Cloudflare Workers Builds (Worker name `thecommons-technology-site`), usually within a minute or two. There is nothing to upload by hand.
 
 - `public/` holds everything the site serves.
 - `wrangler.jsonc` tells Cloudflare which Worker to deploy to and where the files are.

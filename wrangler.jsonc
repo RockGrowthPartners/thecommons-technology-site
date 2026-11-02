@@ -2,7 +2,7 @@
   // The Commons Technology, Inc. company website (thecommons.technology).
   // Cloudflare Workers Builds deploys this on every push to main.
   // The name must match the Worker in the Cloudflare dashboard.
-  "name": "thecommons-technology",
+  "name": "thecommons-technology-site",
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./public",
